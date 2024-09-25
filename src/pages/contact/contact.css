@@ -1,0 +1,49 @@
+.contact{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/020/462/294/large_2x/abstract-subtle-blue-gradient-background-template-free-vector.jpg');
+    width: 100%;
+    height: 93vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactTitle{
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 600;
+    font-style:"Varela Round",sans-serif;
+    color: #444;
+    text-align: center;
+}
+
+.contactInput{
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.contactSubmit{
+    margin: 10px 0;
+    font-size: 30px;
+    background-color: teal;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+
+.contactForm > label{
+    font-size: 18px;
+    font-style: 'Lora',sans-serif;
+}
