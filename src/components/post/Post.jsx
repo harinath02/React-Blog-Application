@@ -8,7 +8,7 @@ export default function Post() {
       <div className="postInfo">
         <div className="postCats">
             <span className="postCat">Music</span>
-            <spna className="postCat">Life</spna>
+            <span className="postCat">Life</span>
         </div>
         <span className="postTitle">
             Lorem ipsum dolor sit amet.
